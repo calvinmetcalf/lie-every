@@ -1,6 +1,6 @@
 {
   "name": "lie-every",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "every goddman lie",
   "main": "lib/every.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "chai": "~1.8.1",
     "mocha": "~1.13.0",
     "istanbul": "~0.1.44",
-    "lie-resolve": "~0.1.0"
+    "lie-resolve": "~0.1.0",
+    "lie": "~2.0.7"
   },
   "dependencies": {
     "lie-cast": "~0.1.1",
