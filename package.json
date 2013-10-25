@@ -1,0 +1,34 @@
+{
+  "name": "lie-every",
+  "version": "0.1.0",
+  "description": "every goddman lie",
+  "main": "lib/every.js",
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js test ./node_modules/mocha/bin/_mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calvinmetcalf/lie-every.git"
+  },
+  "keywords": [
+    "lie",
+    "promise",
+    "async"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvinmetcalf/lie-every/issues"
+  },
+  "devDependencies": {
+    "mocha-as-promised": "~1.4.0",
+    "chai-as-promised": "~4.0.0",
+    "chai": "~1.8.1",
+    "mocha": "~1.13.0",
+    "istanbul": "~0.1.44",
+    "lie-resolve": "~0.1.0"
+  },
+  "dependencies": {
+    "lie-cast": "~0.1.1",
+    "lie-map": "~0.1.3"
+  }
+}
